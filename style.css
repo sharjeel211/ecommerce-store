@@ -1,0 +1,73 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #f8f9fa;
+    padding: 15px;
+}
+.sidebar .list-group-item {
+    border: none;
+    padding: 10px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.sidebar a:hover {
+    color: #007bff;
+}
+
+/* Submenu */
+.collapse ul {
+    padding-left: 10px;
+}
+.collapse ul li {
+    padding: 5px 0;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background: #343a40;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 22px;
+}
+.navbar-nav .nav-link {
+    color: #ddd;
+}
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+}

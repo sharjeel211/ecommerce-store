@@ -1,0 +1,29 @@
+#  E-Commerce Store (PHP + MySQL)
+
+This is a modular e-commerce web application built using PHP, MySQL, HTML, CSS (Bootstrap), and JavaScript. It includes full CRUD functionality for managing products, designed with scalability and maintainability in mind.
+
+##  Features
+
+- Admin dashboard with themed UI (Medicio Bootstrap)
+- Product management (Create, Read, Update, Delete)
+- Modular file structure for easy maintenance
+- Secure database connection and authentication workflow
+- Responsive design for desktop and mobile
+- Clean navigation and reusable header/footer components
+
+##  Tech Stack
+
+- **Frontend**: HTML, CSS (Bootstrap), JavaScript
+- **Backend**: PHP (Procedural/Modular)
+- **Database**: MySQL
+- **Styling Framework**: Medicio Bootstrap Theme
+
+##  Folder Structure
+
+/admin/ → Admin panel pages 
+/includes/ → Header, footer, and reusable components 
+/modules/ → CRUD logic and database operations
+ /assets/ → CSS, JS, images 
+/db/ → Database connection
+ /index.php → Homepage
+
